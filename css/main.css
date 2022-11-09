@@ -87,6 +87,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+header {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.bigger-logo {
+  width: 110px;
+  height: auto;
+}
+
+.inner-container {
+  max-width: 1500px;
+}
+
+.tab-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
