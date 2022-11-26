@@ -87,17 +87,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-header {
-  font-family: 'Oswald', sans-serif !important;
-}
-
 .font-oswald {
   font-family: 'Oswald', sans-serif !important;
 }
 
-.bigger-logo {
-  width: 110px;
+.font-cabin {
+  font-family: 'Cabin', sans-serif !important;
+}
+.header-logo {
+  width: 80px;
   height: auto;
 }
 
@@ -111,7 +109,28 @@ header {
   height: auto;
 }
 
+.row {
+  margin: 0px;
+}
 
+.paperback:hover, .hardcover:hover, .e-book:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.bg-red {
+  background-color: #7e0c18;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.accordion-button:focus {
+  border: none;
+  border: 0;
+  box-shadow: none;
+}
 
 /* ==========================================================================
    Helper classes
