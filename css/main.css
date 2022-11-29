@@ -148,6 +148,7 @@ textarea {
 .hardcover:hover,
 .e-book:hover {
   background-color: rgb(240, 240, 240);
+  cursor: pointer;
 }
 
 .bg-red {
@@ -169,6 +170,10 @@ textarea {
   background-image: url('../img/carousel-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.nav-link {
+  cursor: pointer;
 }
 
 /* ==========================================================================
